@@ -1,4 +1,4 @@
-FROM cirrusci/android-sdk:tools
+FROM amondnet/android-sdk:tools
 
 ENV ANDROID_PLATFORM_VERSION 30
 ENV ANDROID_BUILD_TOOLS_VERSION 30.0.2
