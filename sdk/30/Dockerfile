@@ -1,4 +1,4 @@
-FROM ghcr.io/amondnet/docker-images-android:tools
+FROM ghcr.io/amondnet/android-sdk:tools
 
 ENV ANDROID_PLATFORM_VERSION 30
 ENV ANDROID_BUILD_TOOLS_VERSION 30.0.2
