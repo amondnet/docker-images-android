@@ -20,7 +20,7 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   # IMAGE_NAME: ${{ github.repository }}
-  IMAGE_NAME: amond/android-sdk
+  IMAGE_NAME: amondnet/android-sdk
 
 jobs:
   build_tools:
