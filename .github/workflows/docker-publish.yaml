@@ -76,7 +76,7 @@ jobs:
           context: sdk/tools
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:tools
-
+          platforms: linux/amd64,linux/arm64
 
         #  labels: ${{ steps.meta.outputs.labels }}
 
