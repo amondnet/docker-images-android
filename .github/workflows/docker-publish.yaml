@@ -80,7 +80,7 @@ jobs:
           context: sdk/tools
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:tools
-          platforms: linux/amd64,linux/arm64
+          # platforms: linux/amd64,linux/arm64
 
         #  labels: ${{ steps.meta.outputs.labels }}
 
@@ -156,7 +156,7 @@ jobs:
           context: sdk/30
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:30
-          platforms: linux/amd64,linux/arm64
+          #platforms: linux/amd64,linux/arm64
 
         #  labels: ${{ steps.meta.outputs.labels }}
 
@@ -231,7 +231,7 @@ jobs:
           context: sdk/33
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:33
-          platforms: linux/amd64,linux/arm64
+          # platforms: linux/amd64,linux/arm64
 
 
         #  labels: ${{ steps.meta.outputs.labels }}
